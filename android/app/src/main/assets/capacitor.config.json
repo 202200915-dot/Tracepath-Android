@@ -1,0 +1,11 @@
+{
+	"appId": "com.tracepath.app",
+	"appName": "Tracepath",
+	"webDir": "www",
+	"android": {
+		"allowMixedContent": false
+	},
+	"server": {
+		"androidScheme": "https"
+	}
+}

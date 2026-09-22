@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Tracepath · Cloud and network security learning coach</title>
+  <meta name="description" content="A personal learning coach for cyber security students: a clear route from networking to Linux, AWS, cloud security and SIEM, with honest prices for every online resource.">
+  <meta name="theme-color" content="#edf1f5" data-dyn>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Tracepath">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="preload" href="fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/plex-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#view">Skip to content</a>
+
+  <header class="top">
+    <a class="brand" href="#/" aria-label="Tracepath, home">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="11" fill="#0b2239"/><path d="M11 34h10a5 5 0 0 0 5-5v-5a5 5 0 0 1 5-5h6" fill="none" stroke="#5cc8ee" stroke-width="3.2" stroke-linecap="round"/><circle cx="11" cy="34" r="4.2" fill="#fff"/><circle cx="37" cy="19" r="5.2" fill="#f2a516"/></svg>
+      <b>Tracepath</b>
+    </a>
+    <span class="grow"></span>
+    <span class="greet" id="greetTop"></span>
+    <button class="toplang" id="topLang" type="button" data-a="ui-lang-toggle" lang="ar">العربية</button>
+    <a class="topset" href="#/settings" aria-label="Settings">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h8M18 6h2M4 12h2M12 12h8M4 18h10M20 18h0"/><circle cx="15" cy="6" r="2"/><circle cx="9" cy="12" r="2"/><circle cx="17" cy="18" r="2"/></svg>
+    </a>
+  </header>
+
+  <aside class="side">
+    <div>
+      <a class="brand" href="#/" aria-label="Tracepath, home">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="11" fill="#0b2239"/><path d="M11 34h10a5 5 0 0 0 5-5v-5a5 5 0 0 1 5-5h6" fill="none" stroke="#5cc8ee" stroke-width="3.2" stroke-linecap="round"/><circle cx="11" cy="34" r="4.2" fill="#fff"/><circle cx="37" cy="19" r="5.2" fill="#f2a516"/></svg>
+        <b>Tracepath</b>
+      </a>
+      <div class="greet" id="greetSide"></div>
+    </div>
+    <nav id="sidenav" class="sidenav" aria-label="Primary"></nav>
+    <div id="sidefoot" class="sidefoot"></div>
+  </aside>
+
+  <div class="main">
+    <div id="offline" class="offline" role="status" hidden>You are offline. Your progress still saves. Links to outside sites need a connection.</div>
+    <main id="view" tabindex="-1"></main>
+  </div>
+
+  <nav id="tabs" class="tabs" aria-label="Primary"></nav>
+  <dialog id="sheet" aria-label="Details"></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <noscript><p style="padding:2rem;max-width:40rem;margin:auto">Tracepath needs JavaScript to run. Please enable it and reload.<br><span lang="ar" dir="rtl">يحتاج Tracepath إلى JavaScript. فعّله ثم أعد التحميل.</span></p></noscript>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/resources.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/android-bridge.js"></script>
+</body>
+</html>
